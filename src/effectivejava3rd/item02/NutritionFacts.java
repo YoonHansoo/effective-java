@@ -15,27 +15,22 @@ public class NutritionFacts {
 	private int sodium;
 	private int carbohydrate;
 	private int servings;
-	
 
 	public int getCarbohydrate() {
 		return carbohydrate;
 	}
 
-
 	public void setCarbohydrate(int carbohydrate) {
 		this.carbohydrate = carbohydrate;
 	}
-
 
 	public int getServings() {
 		return servings;
 	}
 
-
 	public void setServings(int servings) {
 		this.servings = servings;
 	}
-
 
 	public NutritionFacts(int servingSize, int sodium, int carbohydrate, int servings) {
 		super();
@@ -44,11 +39,9 @@ public class NutritionFacts {
 		this.carbohydrate = carbohydrate;
 		this.servings = servings;
 	}
- 
 
 	public static void main(String[] args) {
-		
+
 	}
-	
-	
+
 }
