@@ -1,7 +1,5 @@
 package effectivejava3rd.item02;
 
-import java.util.Objects;
-
 /*
  * 생성자가 많아지면 이 값이 무엇을 의미하는 지 모를 수 있다.
  *  -> settter/getter를 만든다.

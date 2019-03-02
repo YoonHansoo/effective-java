@@ -11,7 +11,6 @@ import java.util.regex.Pattern;
 public class RomanNumber { //안좋은 방법
     static boolean isRomanNumeral(String s) {
         return s.matches("^(?=.)M*(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$"); //비싼객체를 비싸게 만드는 방법임...
-       
     }
 
     
@@ -19,6 +18,7 @@ public class RomanNumber { //안좋은 방법
 
 	 class RomanNumber1 { //좋은방법
 
+		 
     private static final Pattern ROMAN = Pattern.compile("^(?=.)M*(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$");
 
     static boolean isRomanNumeral(String s) {

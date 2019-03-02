@@ -11,7 +11,7 @@ import java.util.EnumSet;
  * 
  * 
  * public static method 단점 
- * 1.public 또는 protected 생성자 없이 static public 메소드만 제공하는 클래 스는 상속할 수 없다.\
+ * 1.public 또는 protected 생성자 없이 static public 메소드만 제공하는 클래 스는 상속할 수 없다.
  * 2.프로그래머가 static팩토리 메소드를 찾는게 어렵다. (API문서를 볼 때)
  * 
  */
